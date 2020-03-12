@@ -1,0 +1,21 @@
+%btn {
+    border-radius: 40px;
+    padding: 8px 20px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+    // & jom nuy btn kang ler
+    &hover {
+        opacity: 0.9;
+    }
+}
+
+.btn-primary {
+    @extend %btn;
+    background: $primary;
+}
+
+.btn-warning {
+    @extend %btn;
+    background: $warning;
+}

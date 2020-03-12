@@ -1,0 +1,32 @@
+@import 'variable';
+body {
+    background: pink;
+    margin: 0;
+    padding: 0;
+    font-family: $font-app;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: teal;
+    // shadow is run to right
+    box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+     ul {
+         margin: 0;
+         display: flex;
+         list-style: none;
+ 
+         li {
+             padding: 20px;
+ 
+             a {
+                 text-decoration: none;
+                 color: #fff;
+                 text-transform: uppercase;
+             }
+         }
+     }
+ }
+@import 'buttons';
+@import 'utilities';
